@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./newsapp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: #e5e5e5;">
+    <div class="selection text-center m-3">
+        <label for="category"style=" font-family: 'Nanum Myeongjo', serif;">Choose a category:</label>
+
+        <select name="category" id="cat" style="background-color: transparent;border: 1px solid;border-radius: 20px;font-family: 'Nanum Myeongjo', serif;">
+            <option value="Business">Business</option>
+            <option value="Entertainment">Entertaiment</option>
+            <option value="Environent">Environment</option>
+            <option value="Food">Food</option>
+            <option value="Health">Health</option>
+            <option value="Politics">Politics</option>
+            <option value="Science">Science</option>
+            <option value="Sports">Sports</option>
+            <option value="Technology">Technology</option>
+            <option value="Top">Top</option>
+            <option value="World">World</option>
+        </select>
+        <button type="button" onclick="selectcategory()" style="border-radius: 13px;font-family: 'Nanum Myeongjo', serif;">Go</button>
+    </div>
+    <div class="mainbox p-4">
+        <div id="resultpublish">
+          <img src="./images/image_processing20200424-22029-1xxvdho.png" style="height: 200px;text-align: center;margin-top: 30%;" alt="">
+            <!-- <img src="./images/M8chZsABUXZp3bfUW5Pbb7.png" style="height: 200px ; margin-top: 20%;" alt=""> -->
+            <!-- <h3 class="mt-2 " >Science News</h3>
+            <li class="text-start m-2 mt-3">
+                12.02.2023 United States Of India<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reprehenderit odit, quidem iste,
+                doloremque facere qui quis, velit rerum porro nemo saepe ratione aspernatur nulla culpa! Error impedit
+                ex quam.
+                <a href=""> read more</a>
+            </li>
+            <li class="text-start m-2">
+                12.02.2023 United States Of India<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sit velit quas eveniet distinctio dolor
+                maxime, delectus aliquam nobis eaque accusantium, tempore ducimus minima assumenda ullam obcaecati dicta
+                non fugiat!
+                <a href=""> read more</a>
+            </li>
+            </li> -->
+
+        </div>
+    </div>
+
+</body>
+<script src="./newsapp.js"></script>
+
+</html>
